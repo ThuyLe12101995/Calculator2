@@ -10,6 +10,9 @@ function Calculator() {
     this.calculate = function (operator,firstNumber,secondNumber) {
         return this.operators[operator].run(firstNumber,secondNumber);
     }
+    this.addOperator=function (operatorName,operator) {
+        this.operators[operatorName] = operator;
+    }
 }
 
 
