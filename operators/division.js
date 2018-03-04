@@ -1,4 +1,4 @@
-class  Division {
+class Division {
 
     run (firstNumber, secondNumber){
         if ( secondNumber === 0 )
@@ -6,4 +6,5 @@ class  Division {
         return firstNumber / secondNumber;
     }
 }
+
 module.exports = Division;
