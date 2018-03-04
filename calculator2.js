@@ -1,4 +1,4 @@
-const operators= require("./Operators");
+const operators= require("./operators");
 
 
 class Calculator {
@@ -12,9 +12,9 @@ class Calculator {
         };
     }
 
-    calculate (operator,firstNumber,secondNumber) {
-        return this.operators[operator].run(firstNumber,secondNumber);
+    calculate (operator, firstNumber, secondNumber) {
+        return this.operators[operator].run(firstNumber, secondNumber);
     }
 }
 
-module.exports=Calculator;
+module.exports = Calculator;
