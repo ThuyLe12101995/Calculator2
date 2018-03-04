@@ -1,8 +1,8 @@
 class Addition {
-    run (firstNumber,secondNumber) {
 
+    run (firstNumber, secondNumber) {
         return firstNumber + secondNumber;
     }
-
 }
+
 module.exports = Addition;
