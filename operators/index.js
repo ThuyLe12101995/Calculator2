@@ -1,4 +1,4 @@
-exports.Add = require("./Addition");
-exports.Div = require("./Division");
-exports.Mul = require("./Multiplication");
-exports.Sub = require("./Subtraction");
+exports.Add = require("./addition");
+exports.Div = require("./division");
+exports.Mul = require("./multiplication");
+exports.Sub = require("./subtraction");
