@@ -1,6 +1,6 @@
 class Multiplication {
 
-    run (firstNumber , secondNumber ) {
+    run (firstNumber, secondNumber ) {
         return firstNumber * secondNumber;
     }
 }
